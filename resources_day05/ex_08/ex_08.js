@@ -7,8 +7,8 @@ document.getElementById("description").innerHTML = `
     `;
 document.querySelector('img').src = 'Samsung22.png'; 
 let i = 0;
-document.querySelector('.cart-btn').addEventListener('click', function (event) {
-event.preventDefault();
+document.querySelector('.cart-btn').addEventListener('click', function (e) {
+e.preventDefault();
     i++;
     document.getElementById('cartCount').textContent = i;
     });
