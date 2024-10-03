@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
 document.getElementById("productName").textContent = "Samsung 22";
-document.getElementById("description").innerHTML = `
-    <p>Never miss that perfect shot again.</p>
+document.getElementById("description").innerHTML = 
+`<p>Never miss that perfect shot again.</p>
     <p>Designed to revolutionise video and photography, with beyond cinematic 16K resolution.</p>
-    <p>Get yours now!</p>
-    `;
+    <p>Get yours now!</p>`;
 document.querySelector('img').src = 'Samsung22.png'; 
 let i = 0;
 document.querySelector('.cart-btn').addEventListener('click', function (e) {
